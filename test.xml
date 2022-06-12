@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<xmeml version="4">
+    <project>
+        <name>Example timeline</name>
+        <children>
+            <sequence id="sequence-1">
+                <name>Example timeline</name>
+                <duration>980</duration>
+                <rate>
+                    <timebase>24</timebase>
+                    <ntsc>FALSE</ntsc>
+                </rate>
+                <media>
+                    <video>
+                        <track>
+                            <clipitem frameBlend="FALSE" id="clipitem-1">
+                                <file id="file-1">
+                                    <pathurl>Batman Middle.mp4</pathurl>
+                                    <name>Batman Middle.mp4</name>
+                                    <rate>
+                                        <timebase>24</timebase>
+                                        <ntsc>FALSE</ntsc>
+                                    </rate>
+                                    <duration>1000</duration>
+                                    <timecode>
+                                        <rate>
+                                            <timebase>24</timebase>
+                                            <ntsc>FALSE</ntsc>
+                                        </rate>
+                                        <string>00:00:00:00</string>
+                                        <frame>0</frame>
+                                        <displayformat>NDF</displayformat>
+                                    </timecode>
+                                    <media>
+                                        <video/>
+                                        <audio/>
+                                    </media>
+                                </file>
+                                <name>Clip1</name>
+                                <rate>
+                                    <timebase>24</timebase>
+                                    <ntsc>FALSE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>24</timebase>
+                                    <ntsc>FALSE</ntsc>
+                                </rate>
+                                <duration>980</duration>
+                                <start>0</start>
+                                <end>980</end>
+                                <in>10</in>
+                                <out>990</out>
+                            </clipitem>
+                        </track>
+                    </video>
+                    <audio/>
+                </media>
+            </sequence>
+        </children>
+    </project>
+</xmeml>

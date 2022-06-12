@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<xmeml version="4">
+    <project>
+        <name>Kdenlive imported timeline</name>
+        <children>
+            <sequence id="sequence-1">
+                <name>Kdenlive imported timeline</name>
+                <duration>1677</duration>
+                <rate>
+                    <timebase>30</timebase>
+                    <ntsc>TRUE</ntsc>
+                </rate>
+                <media>
+                    <video>
+                        <track>
+                            <clipitem id="clipitem-4"/>
+                            <clipitem id="clipitem-5"/>
+                            <clipitem id="clipitem-6"/>
+                            <clipitem id="clipitem-7"/>
+                        </track>
+                        <track>
+                            <clipitem id="clipitem-3"/>
+                        </track>
+                        <track>
+                            <clipitem id="clipitem-1"/>
+                            <clipitem id="clipitem-2"/>
+                        </track>
+                    </video>
+                    <audio>
+                        <track>
+                            <clipitem frameBlend="FALSE" id="clipitem-1">
+                                <file id="file-1">
+                                    <pathurl>Batman Right.mp4</pathurl>
+                                    <name>Batman Right.mp4</name>
+                                    <rate>
+                                        <timebase>30</timebase>
+                                        <ntsc>TRUE</ntsc>
+                                    </rate>
+                                    <duration>39196</duration>
+                                    <timecode>
+                                        <rate>
+                                            <timebase>30</timebase>
+                                            <ntsc>TRUE</ntsc>
+                                        </rate>
+                                        <string>00:00:00:00</string>
+                                        <frame>0</frame>
+                                        <displayformat>NDF</displayformat>
+                                    </timecode>
+                                    <media>
+                                        <video/>
+                                        <audio/>
+                                    </media>
+                                </file>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>268</duration>
+                                <start>266</start>
+                                <end>534</end>
+                                <in>0</in>
+                                <out>268</out>
+                            </clipitem>
+                            <clipitem frameBlend="FALSE" id="clipitem-2">
+                                <file id="file-1"/>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>327</duration>
+                                <start>660</start>
+                                <end>987</end>
+                                <in>394</in>
+                                <out>721</out>
+                            </clipitem>
+                        </track>
+                        <track>
+                            <clipitem frameBlend="FALSE" id="clipitem-3">
+                                <file id="file-2">
+                                    <pathurl>Batman Left.mp4</pathurl>
+                                    <name>Batman Left.mp4</name>
+                                    <rate>
+                                        <timebase>30</timebase>
+                                        <ntsc>TRUE</ntsc>
+                                    </rate>
+                                    <duration>39196</duration>
+                                    <timecode>
+                                        <rate>
+                                            <timebase>30</timebase>
+                                            <ntsc>TRUE</ntsc>
+                                        </rate>
+                                        <string>00:00:00:00</string>
+                                        <frame>0</frame>
+                                        <displayformat>NDF</displayformat>
+                                    </timecode>
+                                    <media>
+                                        <video/>
+                                        <audio/>
+                                    </media>
+                                </file>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>453</duration>
+                                <start>408</start>
+                                <end>861</end>
+                                <in>286</in>
+                                <out>739</out>
+                            </clipitem>
+                        </track>
+                        <track>
+                            <clipitem frameBlend="FALSE" id="clipitem-4">
+                                <file id="file-3">
+                                    <pathurl>Batman Middle.mp4</pathurl>
+                                    <name>Batman Middle.mp4</name>
+                                    <rate>
+                                        <timebase>30</timebase>
+                                        <ntsc>TRUE</ntsc>
+                                    </rate>
+                                    <duration>39196</duration>
+                                    <timecode>
+                                        <rate>
+                                            <timebase>30</timebase>
+                                            <ntsc>TRUE</ntsc>
+                                        </rate>
+                                        <string>00:00:00:00</string>
+                                        <frame>0</frame>
+                                        <displayformat>NDF</displayformat>
+                                    </timecode>
+                                    <media>
+                                        <video/>
+                                        <audio/>
+                                    </media>
+                                </file>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>1</duration>
+                                <start>124</start>
+                                <end>125</end>
+                                <in>5475</in>
+                                <out>5476</out>
+                            </clipitem>
+                            <clipitem frameBlend="FALSE" id="clipitem-5">
+                                <file id="file-3"/>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>5</duration>
+                                <start>125</start>
+                                <end>130</end>
+                                <in>0</in>
+                                <out>5</out>
+                            </clipitem>
+                            <clipitem frameBlend="FALSE" id="clipitem-6">
+                                <file id="file-3"/>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>278</duration>
+                                <start>130</start>
+                                <end>408</end>
+                                <in>261</in>
+                                <out>539</out>
+                            </clipitem>
+                            <clipitem frameBlend="FALSE" id="clipitem-7">
+                                <file id="file-3"/>
+                                <name/>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <rate>
+                                    <timebase>30</timebase>
+                                    <ntsc>TRUE</ntsc>
+                                </rate>
+                                <duration>690</duration>
+                                <start>987</start>
+                                <end>1677</end>
+                                <in>325</in>
+                                <out>1015</out>
+                            </clipitem>
+                        </track>
+                    </audio>
+                </media>
+            </sequence>
+        </children>
+    </project>
+</xmeml>
