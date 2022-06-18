@@ -14,7 +14,7 @@
             {
                 "OTIO_SCHEMA": "Track.1",
                 "metadata": {},
-                "name": "Batman Middle.mp4",
+                "name": "Default_camera",
                 "source_range": null,
                 "effects": [],
                 "markers": [],
@@ -24,11 +24,41 @@
             {
                 "OTIO_SCHEMA": "Track.1",
                 "metadata": {},
-                "name": "Batman Right.mp4",
+                "name": "Data/Audio/Osi Audio Extracted.wav",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [],
+                "kind": "Audio"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Osi Audio Extracted.wav_video",
                 "source_range": null,
                 "effects": [],
                 "markers": [],
                 "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap1",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 120.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
+                    },
                     {
                         "OTIO_SCHEMA": "Clip.1",
                         "metadata": {},
@@ -38,7 +68,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 259.536
+                                "value": 139.536
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -57,16 +87,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 259.536
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 120.0
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap2",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 994.608
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -77,7 +127,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 2900.112
+                                "value": 1645.968
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -96,16 +146,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 2900.112
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1254.144
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap3",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 707.3760000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -116,7 +186,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 4187.04
+                                "value": 579.5519999999997
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -135,16 +205,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 4187.04
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 3607.4880000000003
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap4",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 3746.688
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -155,7 +245,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 8731.824
+                                "value": 798.0960000000005
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -174,16 +264,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 8731.824
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 7933.728
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap5",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 3159.5999999999985
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -194,7 +304,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 12178.416000000001
+                                "value": 286.992000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -213,16 +323,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12178.416000000001
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 11891.423999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap6",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 20.591999999998734
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -233,7 +363,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 12301.152
+                                "value": 102.14400000000023
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -252,16 +382,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12301.152
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12199.008
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap7",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2865.2160000000003
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -272,7 +422,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 15228.047999999999
+                                "value": 61.67999999999847
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -291,16 +441,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15228.047999999999
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15166.368
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap8",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 902.2080000000024
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -311,7 +481,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 16533.36
+                                "value": 403.10399999999936
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -330,16 +500,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16533.36
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16130.256000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap9",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 663.8399999999965
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -350,7 +540,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17358.384
+                                "value": 161.1840000000011
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -369,16 +559,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17358.384
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17197.199999999997
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap10",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 399.9360000000015
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -389,7 +599,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17968.896
+                                "value": 210.57600000000093
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -408,16 +618,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17968.896
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17758.32
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap11",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 118.22399999999834
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -428,7 +658,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18252.288
+                                "value": 165.16800000000148
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -447,16 +677,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18252.288
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18087.12
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap12",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 510.14400000000023
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -467,7 +717,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18882.336
+                                "value": 119.90399999999863
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -486,16 +736,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18882.336
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18762.432
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap13",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1481.6640000000007
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -506,7 +776,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 20424.72
+                                "value": 60.720000000001164
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -525,16 +795,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20424.72
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20364.0
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap14",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 114.5759999999973
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -545,7 +835,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 20883.216
+                                "value": 343.9200000000019
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -564,16 +854,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20883.216
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20539.296
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap15",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1079.0879999999997
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -584,7 +894,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 24255.6
+                                "value": 2293.2959999999985
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -603,16 +913,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24255.6
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21962.304
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap16",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1063.583999999999
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -623,7 +953,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 25752.672
+                                "value": 433.4880000000012
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -642,16 +972,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 25752.672
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 25319.183999999997
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap17",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1413.648000000001
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -662,7 +1012,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 27251.088
+                                "value": 84.76800000000003
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -681,16 +1031,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 27251.088
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 27166.32
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap18",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2759.040000000001
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -701,7 +1071,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30049.344
+                                "value": 39.21600000000035
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -720,16 +1090,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30049.344
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30010.128
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap19",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 330.9599999999991
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -740,7 +1130,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30588.095999999998
+                                "value": 207.79199999999764
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -759,16 +1149,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30588.095999999998
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30380.304
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap20",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86.25600000000122
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -779,7 +1189,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 31149.840000000004
+                                "value": 475.48800000000483
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -798,16 +1208,57 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31149.840000000004
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30674.352
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    }
+                ],
+                "kind": "Video"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Scott Audio Extracted.wav",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [],
+                "kind": "Audio"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Scott Audio Extracted.wav_video",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap21",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 717.072
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -818,7 +1269,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 1034.7359999999999
+                                "value": 317.6639999999999
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -837,16 +1288,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1034.7359999999999
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 717.072
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap22",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 27.072000000000116
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -857,7 +1328,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 1192.656
+                                "value": 130.84799999999996
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -876,16 +1347,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1192.656
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1061.808
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap23",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1707.504
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -896,7 +1387,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 3607.44
+                                "value": 707.2800000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -915,16 +1406,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 3607.44
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 2900.16
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap24",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2484.0480000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -935,7 +1446,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 6160.7519999999995
+                                "value": 69.26399999999921
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -954,16 +1465,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6160.7519999999995
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6091.488
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap25",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 6017.712
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -974,7 +1505,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 12198.960000000001
+                                "value": 20.496000000001004
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -993,16 +1524,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12198.960000000001
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12178.464
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap26",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 714.0480000000007
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1013,7 +1564,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 12962.832000000002
+                                "value": 49.824000000000524
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1032,16 +1583,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12962.832000000002
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12913.008000000002
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap27",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1886.927999999998
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1052,7 +1623,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 14948.304
+                                "value": 98.54399999999987
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1071,16 +1642,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14948.304
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14849.76
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap28",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 279.7920000000013
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1091,7 +1682,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 15381.552
+                                "value": 153.4559999999983
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1110,16 +1701,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15381.552
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15228.096000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap29",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1151.8560000000034
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1130,7 +1741,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 16931.616
+                                "value": 398.2079999999987
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1149,16 +1760,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16931.616
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16533.408000000003
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap30",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 135.93599999999788
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1169,7 +1800,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17197.152000000002
+                                "value": 129.60000000000218
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1188,16 +1819,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17197.152000000002
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17067.552
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap31",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 161.27999999999884
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1208,7 +1859,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17424.0
+                                "value": 65.5679999999993
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1227,16 +1878,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17424.0
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17358.432
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap32",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 544.9439999999995
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1247,7 +1918,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18087.072
+                                "value": 118.12800000000061
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1266,16 +1937,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18087.072
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17968.944
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap33",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 3400.5599999999977
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1286,7 +1977,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 21884.352
+                                "value": 396.72000000000116
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1305,16 +1996,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21884.352
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21487.631999999998
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap34",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2371.296000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1325,7 +2036,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 24490.368000000002
+                                "value": 234.72000000000116
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1344,16 +2055,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24490.368000000002
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24255.648
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap35",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 123.02399999999761
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1364,7 +2095,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 24903.311999999998
+                                "value": 289.91999999999825
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1383,16 +2114,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24903.311999999998
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24613.392
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap36",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 4269.696
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1403,7 +2154,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30010.08
+                                "value": 837.0720000000038
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1422,16 +2173,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30010.08
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 29173.007999999998
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap37",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 193.8719999999994
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1442,7 +2213,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30380.256
+                                "value": 176.3040000000001
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1461,16 +2232,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30380.256
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30203.952
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap38",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 769.6319999999978
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1481,7 +2272,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 31179.840000000004
+                                "value": 29.952000000004773
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1500,12 +2291,12 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31179.840000000004
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31149.888
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Right.mp4"
@@ -1517,11 +2308,41 @@
             {
                 "OTIO_SCHEMA": "Track.1",
                 "metadata": {},
-                "name": "Batman Left.mp4",
+                "name": "Data/Audio/Chukwu Audio Extracted.wav",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [],
+                "kind": "Audio"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Chukwu Audio Extracted.wav_video",
                 "source_range": null,
                 "effects": [],
                 "markers": [],
                 "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap39",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 259.584
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
+                    },
                     {
                         "OTIO_SCHEMA": "Clip.1",
                         "metadata": {},
@@ -1531,7 +2352,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 556.608
+                                "value": 297.02399999999994
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1550,16 +2371,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 556.608
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 259.584
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap40",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 478.17600000000016
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1570,7 +2411,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 1061.76
+                                "value": 26.975999999999885
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1589,16 +2430,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1061.76
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1034.784
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap41",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 130.94399999999996
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1609,7 +2470,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 1254.096
+                                "value": 61.39200000000005
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1628,16 +2489,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1254.096
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 1192.704
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap42",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 4693.104000000001
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1648,7 +2529,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 6091.4400000000005
+                                "value": 144.23999999999978
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1667,16 +2548,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6091.4400000000005
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 5947.200000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap43",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 69.35999999999876
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1687,7 +2588,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 6802.1759999999995
+                                "value": 641.3760000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1706,16 +2607,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6802.1759999999995
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6160.799999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap44",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 97.96799999999985
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1726,7 +2647,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 7048.992
+                                "value": 148.84800000000087
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1745,16 +2666,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 7048.992
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6900.143999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap45",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1833.312
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1765,7 +2706,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 9979.583999999999
+                                "value": 1097.2799999999988
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1784,16 +2725,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 9979.583999999999
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 8882.304
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap46",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 908.2080000000024
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1804,7 +2765,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 10986.72
+                                "value": 98.92799999999806
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1823,16 +2784,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 10986.72
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 10887.792000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap47",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1314.4799999999996
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1843,7 +2824,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 12912.96
+                                "value": 611.7600000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1862,16 +2843,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12912.96
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12301.199999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap48",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 49.92000000000189
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1882,7 +2883,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 13969.104000000001
+                                "value": 1006.2240000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1901,16 +2902,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 13969.104000000001
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 12962.880000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap49",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 186.62399999999798
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1921,7 +2942,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 14613.36
+                                "value": 457.6320000000014
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1940,16 +2961,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14613.36
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14155.728
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap50",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 482.92799999999806
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1960,7 +3001,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 15166.32
+                                "value": 70.03200000000106
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -1979,16 +3020,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15166.32
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15096.287999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap51",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1792.0319999999992
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -1999,7 +3060,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17067.504
+                                "value": 109.15200000000186
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2018,16 +3079,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17067.504
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16958.352
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap52",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 356.54399999999805
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2038,7 +3119,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17580.192000000003
+                                "value": 156.14400000000387
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2057,16 +3138,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17580.192000000003
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17424.048
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap53",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 672.1439999999966
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2077,7 +3178,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18582.096
+                                "value": 329.76000000000204
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2096,16 +3197,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18582.096
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18252.336
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap54",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 98.20799999999872
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2116,7 +3237,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18762.384
+                                "value": 82.07999999999811
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2135,16 +3256,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18762.384
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18680.304
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap55",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 120.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2155,7 +3296,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 19549.968
+                                "value": 667.5840000000026
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2174,16 +3315,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 19549.968
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18882.384
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap56",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 4952.207999999999
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2194,7 +3355,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 24613.344
+                                "value": 111.16800000000148
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2213,16 +3374,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24613.344
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24502.176
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap57",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1139.3760000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2233,7 +3414,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 26576.352
+                                "value": 823.6319999999978
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2252,16 +3433,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 26576.352
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 25752.72
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap58",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1882.2720000000045
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2272,7 +3473,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 28830.575999999997
+                                "value": 371.95199999999386
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2291,16 +3492,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28830.575999999997
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28458.624000000003
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap59",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 162.24000000000524
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2311,7 +3532,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 29172.96
+                                "value": 180.1439999999966
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2330,16 +3551,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 29172.96
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28992.816000000003
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap60",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2011.536
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2350,7 +3591,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 31267.44
+                                "value": 82.9439999999995
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2369,16 +3610,57 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31267.44
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31184.496
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    }
+                ],
+                "kind": "Video"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Crystal Audio Extracted.wav",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [],
+                "kind": "Audio"
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "Data/Audio/Crystal Audio Extracted.wav_video",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap61",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 556.656
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2389,7 +3671,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 717.024
+                                "value": 160.36800000000005
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2408,16 +3690,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 717.024
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 556.656
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap62",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 3470.064
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2428,7 +3730,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 5947.152
+                                "value": 1760.0640000000003
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2447,16 +3749,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 5947.152
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 4187.088
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap63",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 855.0720000000001
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2467,7 +3789,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 6900.0960000000005
+                                "value": 97.8720000000003
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2486,16 +3808,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6900.0960000000005
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 6802.224
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap64",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 148.9439999999986
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2506,7 +3848,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 7933.68
+                                "value": 884.6400000000012
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2525,16 +3867,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 7933.68
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 7049.039999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap65",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 798.1919999999991
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2545,7 +3907,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 8882.256
+                                "value": 150.38400000000001
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2564,16 +3926,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 8882.256
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 8731.872
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap66",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1097.3760000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2584,7 +3966,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 10887.744
+                                "value": 908.112000000001
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2603,16 +3985,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 10887.744
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 9979.632
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap67",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 99.02399999999943
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2623,7 +4025,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 11891.376
+                                "value": 904.6080000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2642,16 +4044,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 11891.376
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 10986.768
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap68",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2077.776
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2662,7 +4084,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 14155.68
+                                "value": 186.52800000000025
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2681,16 +4103,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14155.68
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 13969.152
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap69",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 457.728000000001
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2701,7 +4143,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 14849.712000000001
+                                "value": 236.3040000000001
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2720,16 +4162,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14849.712000000001
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14613.408000000001
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap70",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 98.6399999999976
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2740,7 +4202,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 15096.24
+                                "value": 147.88800000000083
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2759,16 +4221,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15096.24
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 14948.351999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap71",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 285.35999999999876
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2779,7 +4261,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 16130.207999999999
+                                "value": 748.6080000000002
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2798,16 +4280,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16130.207999999999
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 15381.599999999999
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap72",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 801.456000000002
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2818,7 +4320,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 16958.304
+                                "value": 26.639999999999418
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2837,16 +4339,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16958.304
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 16931.664
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap73",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 621.9359999999979
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2857,7 +4379,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 17758.272
+                                "value": 178.03200000000288
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2876,16 +4398,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17758.272
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 17580.239999999998
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap74",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 823.8719999999994
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2896,7 +4438,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 18680.256
+                                "value": 98.11200000000099
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2915,16 +4457,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18680.256
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 18582.144
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap75",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 869.7599999999984
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2935,7 +4497,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 20363.952
+                                "value": 813.9360000000015
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2954,16 +4516,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20363.952
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 19550.016
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap76",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 60.815999999998894
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -2974,7 +4556,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 20539.248
+                                "value": 114.47999999999956
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -2993,16 +4575,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20539.248
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20424.768
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap77",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 344.0159999999996
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3013,7 +4615,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 21487.584000000003
+                                "value": 604.3200000000033
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3032,16 +4634,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21487.584000000003
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 20883.264
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap78",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 396.8159999999989
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3052,7 +4674,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 21962.256
+                                "value": 77.85599999999977
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3071,16 +4693,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21962.256
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 21884.4
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap79",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2528.159999999996
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3091,7 +4733,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 24502.128
+                                "value": 11.712000000003172
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3110,16 +4752,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24502.128
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24490.415999999997
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap80",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 401.23199999999997
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3130,7 +4792,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 25319.136
+                                "value": 415.775999999998
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3149,16 +4811,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 25319.136
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 24903.36
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap81",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1257.2639999999992
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3169,7 +4851,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 27166.272000000004
+                                "value": 589.8720000000067
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3188,16 +4870,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 27166.272000000004
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 26576.399999999998
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap82",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 84.86399999999412
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3208,7 +4910,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 28458.575999999997
+                                "value": 1207.4399999999987
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3227,16 +4929,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28458.575999999997
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 27251.136
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap83",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 372.04800000000614
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3247,7 +4969,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 28992.767999999996
+                                "value": 162.14399999999296
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3266,16 +4988,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28992.767999999996
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 28830.624000000003
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap84",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1056.6240000000034
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3286,7 +5028,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30203.904000000002
+                                "value": 154.51200000000244
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3305,16 +5047,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30203.904000000002
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30049.392
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap85",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 384.23999999999796
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3325,7 +5087,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 30674.304
+                                "value": 86.15999999999985
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3344,16 +5106,36 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30674.304
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 30588.144
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "vGap86",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 505.5839999999989
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": []
                     },
                     {
                         "OTIO_SCHEMA": "Clip.1",
@@ -3364,7 +5146,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 31184.448000000004
+                                "value": 4.560000000004948
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3383,58 +5165,18 @@
                                 "duration": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31184.448000000004
+                                    "value": 31356.0
                                 },
                                 "start_time": {
                                     "OTIO_SCHEMA": "RationalTime.1",
                                     "rate": 24.0,
-                                    "value": 31179.888
+                                    "value": 0.0
                                 }
                             },
                             "target_url": "Batman Left.mp4"
                         }
                     }
                 ],
-                "kind": "Video"
-            },
-            {
-                "OTIO_SCHEMA": "Track.1",
-                "metadata": {},
-                "name": "Data/Audio/Osi Audio Extracted.wav",
-                "source_range": null,
-                "effects": [],
-                "markers": [],
-                "children": [],
-                "kind": "Video"
-            },
-            {
-                "OTIO_SCHEMA": "Track.1",
-                "metadata": {},
-                "name": "Data/Audio/Scott Audio Extracted.wav",
-                "source_range": null,
-                "effects": [],
-                "markers": [],
-                "children": [],
-                "kind": "Video"
-            },
-            {
-                "OTIO_SCHEMA": "Track.1",
-                "metadata": {},
-                "name": "Data/Audio/Chukwu Audio Extracted.wav",
-                "source_range": null,
-                "effects": [],
-                "markers": [],
-                "children": [],
-                "kind": "Video"
-            },
-            {
-                "OTIO_SCHEMA": "Track.1",
-                "metadata": {},
-                "name": "Data/Audio/Crystal Audio Extracted.wav",
-                "source_range": null,
-                "effects": [],
-                "markers": [],
-                "children": [],
                 "kind": "Video"
             }
         ]
