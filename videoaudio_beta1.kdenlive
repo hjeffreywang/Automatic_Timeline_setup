@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt version="6.23.0" title="Example timeline" LC_NUMERIC="C" producer="main_bin">
+	<profile description="HD 1080p 500.0 fps" frame_rate_num="500" frame_rate_den="1" width="1920" height="1080" display_aspect_num="16" display_aspect_den="9" sample_aspect_num="1" sample_aspect_den="1" colorspace="709" progressive="1"/>
+	<producer id="producer0" in="00:00:00.000" out="00:21:47.806">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Osi Audio Extracted.wav</property>
+		<property name="kdenlive:clipname">aClip1</property>
+		<property name="length">653904</property>
+		<property name="kdenlive:id">4</property>
+	</producer>
+	<producer id="producer1" in="00:00:00.000" out="00:21:46.458">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Batman Right.mp4</property>
+		<property name="kdenlive:clipname">vClip1</property>
+		<property name="length">653250</property>
+		<property name="kdenlive:id">5</property>
+	</producer>
+	<producer id="producer2" in="00:00:00.000" out="00:21:47.806">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Scott Audio Extracted.wav</property>
+		<property name="kdenlive:clipname">aClip21</property>
+		<property name="length">653904</property>
+		<property name="kdenlive:id">6</property>
+	</producer>
+	<producer id="producer3" in="00:00:00.000" out="00:21:47.806">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Chukwu Audio Extracted.wav</property>
+		<property name="kdenlive:clipname">aClip39</property>
+		<property name="length">653904</property>
+		<property name="kdenlive:id">7</property>
+	</producer>
+	<producer id="producer4" in="00:00:00.000" out="00:21:46.458">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Batman Left.mp4</property>
+		<property name="kdenlive:clipname">vClip39</property>
+		<property name="length">653250</property>
+		<property name="kdenlive:id">8</property>
+	</producer>
+	<producer id="producer5" in="00:00:00.000" out="00:21:47.806">
+		<property name="global_feed">1</property>
+		<property name="mlt_service">avformat-novalidate</property>
+		<property name="resource">Crystal Audio Extracted.wav</property>
+		<property name="kdenlive:clipname">aClip61</property>
+		<property name="length">653904</property>
+		<property name="kdenlive:id">9</property>
+	</producer>
+	<producer id="unsupported" in="0" out="10000">
+		<property name="mlt_service">qtext</property>
+		<property name="family">Courier</property>
+		<property name="fgcolour">#ff808080</property>
+		<property name="bgcolour">#00000000</property>
+		<property name="text">Unsupported clip type</property>
+		<property name="kdenlive:id">3</property>
+	</producer>
+	<playlist id="main_bin">
+		<property name="kdenlive:docproperties.decimalPoint">.</property>
+		<property name="kdenlive:docproperties.version">0.98</property>
+		<property name="xml_retain">1</property>
+		<entry producer="producer0" in="00:00:00.000" out="00:21:47.806">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<entry producer="producer1" in="00:00:00.000" out="00:21:46.458">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<entry producer="producer2" in="00:00:00.000" out="00:21:47.806">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<entry producer="producer3" in="00:00:00.000" out="00:21:47.806">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<entry producer="producer4" in="00:00:00.000" out="00:21:46.458">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<entry producer="producer5" in="00:00:00.000" out="00:21:47.806">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<entry producer="unsupported">
+			<property name="kdenlive:id">3</property>
+		</entry>
+	</playlist>
+	<producer id="black_track">
+		<property name="resource">black</property>
+		<property name="mlt_service">color</property>
+	</producer>
+	<playlist id="playlist0"/>
+	<playlist id="playlist1"/>
+	<tractor id="tractor0">
+		<property name="kdenlive:track_name">Default_camera</property>
+		<track producer="playlist0" hide="audio"/>
+		<track producer="playlist1" hide="both"/>
+	</tractor>
+	<playlist id="playlist2">
+		<property name="kdenlive:audio_track">1</property>
+		<blank length="00:00:05.000"/>
+		<entry producer="producer0" in="00:00:05.000" out="00:00:10.812">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:41.442"/>
+		<entry producer="producer0" in="00:00:52.256" out="00:02:00.836">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:29.474"/>
+		<entry producer="producer0" in="00:02:30.312" out="00:02:54.458">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:02:36.112"/>
+		<entry producer="producer0" in="00:05:30.572" out="00:06:03.824">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:02:11.650"/>
+		<entry producer="producer0" in="00:08:15.476" out="00:08:27.432">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:00.858"/>
+		<entry producer="producer0" in="00:08:28.292" out="00:08:32.546">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:01:59.384"/>
+		<entry producer="producer0" in="00:10:31.932" out="00:10:34.500">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:37.592"/>
+		<entry producer="producer0" in="00:11:12.094" out="00:11:28.888">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:27.660"/>
+		<entry producer="producer0" in="00:11:56.550" out="00:12:03.264">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:16.664"/>
+		<entry producer="producer0" in="00:12:19.930" out="00:12:28.702">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:04.926"/>
+		<entry producer="producer0" in="00:12:33.630" out="00:12:40.510">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:21.256"/>
+		<entry producer="producer0" in="00:13:01.768" out="00:13:06.762">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:01:01.736"/>
+		<entry producer="producer0" in="00:14:08.500" out="00:14:11.028">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:04.774"/>
+		<entry producer="producer0" in="00:14:15.804" out="00:14:30.132">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:44.962"/>
+		<entry producer="producer0" in="00:15:15.096" out="00:16:50.648">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:44.316"/>
+		<entry producer="producer0" in="00:17:34.966" out="00:17:53.026">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:58.902"/>
+		<entry producer="producer0" in="00:18:51.930" out="00:18:55.460">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:01:54.960"/>
+		<entry producer="producer0" in="00:20:50.422" out="00:20:52.054">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:13.790"/>
+		<entry producer="producer0" in="00:21:05.846" out="00:21:14.502">
+			<property name="kdenlive:id">4</property>
+		</entry>
+		<blank length="00:00:03.594"/>
+		<entry producer="producer0" in="00:21:18.098" out="00:21:37.908">
+			<property name="kdenlive:id">4</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist3"/>
+	<tractor id="tractor1">
+		<property name="kdenlive:track_name">Osi Audio Extracted.wav</property>
+		<track producer="playlist2" hide="video"/>
+		<track producer="playlist3" hide="both"/>
+		<property name="kdenlive:audio_track">1</property>
+	</tractor>
+	<playlist id="playlist4">
+		<blank length="00:00:05.000"/>
+		<entry producer="producer1" in="00:00:05.000" out="00:00:10.792">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:41.442"/>
+		<entry producer="producer1" in="00:00:52.256" out="00:02:00.833">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:29.474"/>
+		<entry producer="producer1" in="00:02:30.312" out="00:02:54.458">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:02:36.112"/>
+		<entry producer="producer1" in="00:05:30.572" out="00:06:03.792">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:02:11.650"/>
+		<entry producer="producer1" in="00:08:15.476" out="00:08:27.417">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:00.858"/>
+		<entry producer="producer1" in="00:08:28.292" out="00:08:32.542">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:59.384"/>
+		<entry producer="producer1" in="00:10:31.932" out="00:10:34.500">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:37.592"/>
+		<entry producer="producer1" in="00:11:12.094" out="00:11:28.875">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:27.660"/>
+		<entry producer="producer1" in="00:11:56.550" out="00:12:03.250">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:16.664"/>
+		<entry producer="producer1" in="00:12:19.930" out="00:12:28.667">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:04.926"/>
+		<entry producer="producer1" in="00:12:33.630" out="00:12:40.500">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:21.256"/>
+		<entry producer="producer1" in="00:13:01.768" out="00:13:06.750">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:01.736"/>
+		<entry producer="producer1" in="00:14:08.500" out="00:14:11.000">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:04.774"/>
+		<entry producer="producer1" in="00:14:15.804" out="00:14:30.125">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:44.962"/>
+		<entry producer="producer1" in="00:15:15.096" out="00:16:50.625">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:44.316"/>
+		<entry producer="producer1" in="00:17:34.966" out="00:17:53.000">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:58.902"/>
+		<entry producer="producer1" in="00:18:51.930" out="00:18:55.458">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:54.960"/>
+		<entry producer="producer1" in="00:20:50.422" out="00:20:52.042">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:13.790"/>
+		<entry producer="producer1" in="00:21:05.846" out="00:21:14.500">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:03.594"/>
+		<entry producer="producer1" in="00:21:18.098" out="00:21:37.875">
+			<property name="kdenlive:id">5</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist5"/>
+	<tractor id="tractor2">
+		<property name="kdenlive:track_name">Osi Audio Extracted.wav_video</property>
+		<track producer="playlist4" hide="audio"/>
+		<track producer="playlist5" hide="both"/>
+	</tractor>
+	<playlist id="playlist6">
+		<property name="kdenlive:audio_track">1</property>
+		<blank length="00:00:29.878"/>
+		<entry producer="producer2" in="00:00:29.878" out="00:00:43.112">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:01.128"/>
+		<entry producer="producer2" in="00:00:44.242" out="00:00:49.692">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:01:11.146"/>
+		<entry producer="producer2" in="00:02:00.840" out="00:02:30.308">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:01:43.502"/>
+		<entry producer="producer2" in="00:04:13.812" out="00:04:16.696">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:04:10.738"/>
+		<entry producer="producer2" in="00:08:27.436" out="00:08:28.288">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:29.752"/>
+		<entry producer="producer2" in="00:08:58.042" out="00:09:00.116">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:01:18.622"/>
+		<entry producer="producer2" in="00:10:18.740" out="00:10:22.844">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:11.658"/>
+		<entry producer="producer2" in="00:10:34.504" out="00:10:40.896">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:47.994"/>
+		<entry producer="producer2" in="00:11:28.892" out="00:11:45.482">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:05.664"/>
+		<entry producer="producer2" in="00:11:51.148" out="00:11:56.546">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:06.720"/>
+		<entry producer="producer2" in="00:12:03.268" out="00:12:05.998">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:22.706"/>
+		<entry producer="producer2" in="00:12:28.706" out="00:12:33.626">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:02:21.690"/>
+		<entry producer="producer2" in="00:14:55.318" out="00:15:11.846">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:01:38.804"/>
+		<entry producer="producer2" in="00:16:50.652" out="00:17:00.430">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:05.126"/>
+		<entry producer="producer2" in="00:17:05.558" out="00:17:17.636">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:02:57.904"/>
+		<entry producer="producer2" in="00:20:15.542" out="00:20:50.418">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:08.078"/>
+		<entry producer="producer2" in="00:20:58.498" out="00:21:05.842">
+			<property name="kdenlive:id">6</property>
+		</entry>
+		<blank length="00:00:32.068"/>
+		<entry producer="producer2" in="00:21:37.912" out="00:21:39.158">
+			<property name="kdenlive:id">6</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist7"/>
+	<tractor id="tractor3">
+		<property name="kdenlive:track_name">Scott Audio Extracted.wav</property>
+		<track producer="playlist6" hide="video"/>
+		<track producer="playlist7" hide="both"/>
+		<property name="kdenlive:audio_track">1</property>
+	</tractor>
+	<playlist id="playlist8">
+		<blank length="00:00:29.878"/>
+		<entry producer="producer1" in="00:00:29.878" out="00:00:43.083">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:01.128"/>
+		<entry producer="producer1" in="00:00:44.242" out="00:00:49.667">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:11.146"/>
+		<entry producer="producer1" in="00:02:00.840" out="00:02:30.292">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:43.502"/>
+		<entry producer="producer1" in="00:04:13.812" out="00:04:16.667">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:04:10.738"/>
+		<entry producer="producer1" in="00:08:27.436" out="00:08:28.250">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:29.752"/>
+		<entry producer="producer1" in="00:08:58.042" out="00:09:00.083">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:18.622"/>
+		<entry producer="producer1" in="00:10:18.740" out="00:10:22.833">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:11.658"/>
+		<entry producer="producer1" in="00:10:34.504" out="00:10:40.875">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:47.994"/>
+		<entry producer="producer1" in="00:11:28.892" out="00:11:45.458">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:05.664"/>
+		<entry producer="producer1" in="00:11:51.148" out="00:11:56.542">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:06.720"/>
+		<entry producer="producer1" in="00:12:03.268" out="00:12:06.000">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:22.706"/>
+		<entry producer="producer1" in="00:12:28.706" out="00:12:33.625">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:02:21.690"/>
+		<entry producer="producer1" in="00:14:55.318" out="00:15:11.833">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:01:38.804"/>
+		<entry producer="producer1" in="00:16:50.652" out="00:17:00.417">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:05.126"/>
+		<entry producer="producer1" in="00:17:05.558" out="00:17:17.625">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:02:57.904"/>
+		<entry producer="producer1" in="00:20:15.542" out="00:20:50.417">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:08.078"/>
+		<entry producer="producer1" in="00:20:58.498" out="00:21:05.833">
+			<property name="kdenlive:id">5</property>
+		</entry>
+		<blank length="00:00:32.068"/>
+		<entry producer="producer1" in="00:21:37.912" out="00:21:39.125">
+			<property name="kdenlive:id">5</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist9"/>
+	<tractor id="tractor4">
+		<property name="kdenlive:track_name">Scott Audio Extracted.wav_video</property>
+		<track producer="playlist8" hide="audio"/>
+		<track producer="playlist9" hide="both"/>
+	</tractor>
+	<playlist id="playlist10">
+		<property name="kdenlive:audio_track">1</property>
+		<blank length="00:00:10.816"/>
+		<entry producer="producer3" in="00:00:10.816" out="00:00:23.190">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:19.924"/>
+		<entry producer="producer3" in="00:00:43.116" out="00:00:44.238">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:05.456"/>
+		<entry producer="producer3" in="00:00:49.696" out="00:00:52.252">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:03:15.546"/>
+		<entry producer="producer3" in="00:04:07.800" out="00:04:13.808">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:02.890"/>
+		<entry producer="producer3" in="00:04:16.700" out="00:04:43.422">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:04.082"/>
+		<entry producer="producer3" in="00:04:47.506" out="00:04:53.706">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:01:16.388"/>
+		<entry producer="producer3" in="00:06:10.096" out="00:06:55.814">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:37.842"/>
+		<entry producer="producer3" in="00:07:33.658" out="00:07:37.778">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:54.770"/>
+		<entry producer="producer3" in="00:08:32.550" out="00:08:58.038">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:02.080"/>
+		<entry producer="producer3" in="00:09:00.120" out="00:09:42.044">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:07.776"/>
+		<entry producer="producer3" in="00:09:49.822" out="00:10:08.888">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:20.122"/>
+		<entry producer="producer3" in="00:10:29.012" out="00:10:31.928">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:01:14.668"/>
+		<entry producer="producer3" in="00:11:46.598" out="00:11:51.144">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:14.856"/>
+		<entry producer="producer3" in="00:12:06.002" out="00:12:12.506">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:28.006"/>
+		<entry producer="producer3" in="00:12:40.514" out="00:12:54.252">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:04.092"/>
+		<entry producer="producer3" in="00:12:58.346" out="00:13:01.764">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:05.000"/>
+		<entry producer="producer3" in="00:13:06.766" out="00:13:34.580">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:03:26.342"/>
+		<entry producer="producer3" in="00:17:00.924" out="00:17:05.554">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:47.474"/>
+		<entry producer="producer3" in="00:17:53.030" out="00:18:27.346">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:01:18.428"/>
+		<entry producer="producer3" in="00:19:45.776" out="00:20:01.272">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:00:06.760"/>
+		<entry producer="producer3" in="00:20:08.034" out="00:20:15.538">
+			<property name="kdenlive:id">7</property>
+		</entry>
+		<blank length="00:01:23.814"/>
+		<entry producer="producer3" in="00:21:39.354" out="00:21:42.808">
+			<property name="kdenlive:id">7</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist11"/>
+	<tractor id="tractor5">
+		<property name="kdenlive:track_name">Chukwu Audio Extracted.wav</property>
+		<track producer="playlist10" hide="video"/>
+		<track producer="playlist11" hide="both"/>
+		<property name="kdenlive:audio_track">1</property>
+	</tractor>
+	<playlist id="playlist12">
+		<blank length="00:00:10.816"/>
+		<entry producer="producer4" in="00:00:10.816" out="00:00:23.167">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:19.924"/>
+		<entry producer="producer4" in="00:00:43.116" out="00:00:44.208">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:05.456"/>
+		<entry producer="producer4" in="00:00:49.696" out="00:00:52.250">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:03:15.546"/>
+		<entry producer="producer4" in="00:04:07.800" out="00:04:13.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:02.890"/>
+		<entry producer="producer4" in="00:04:16.700" out="00:04:43.417">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:04.082"/>
+		<entry producer="producer4" in="00:04:47.506" out="00:04:53.667">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:16.388"/>
+		<entry producer="producer4" in="00:06:10.096" out="00:06:55.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:37.842"/>
+		<entry producer="producer4" in="00:07:33.658" out="00:07:37.750">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:54.770"/>
+		<entry producer="producer4" in="00:08:32.550" out="00:08:58.000">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:02.080"/>
+		<entry producer="producer4" in="00:09:00.120" out="00:09:42.042">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:07.776"/>
+		<entry producer="producer4" in="00:09:49.822" out="00:10:08.875">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:20.122"/>
+		<entry producer="producer4" in="00:10:29.012" out="00:10:31.917">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:14.668"/>
+		<entry producer="producer4" in="00:11:46.598" out="00:11:51.125">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:14.856"/>
+		<entry producer="producer4" in="00:12:06.002" out="00:12:12.500">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:28.006"/>
+		<entry producer="producer4" in="00:12:40.514" out="00:12:54.250">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:04.092"/>
+		<entry producer="producer4" in="00:12:58.346" out="00:13:01.750">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:05.000"/>
+		<entry producer="producer4" in="00:13:06.766" out="00:13:34.542">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:03:26.342"/>
+		<entry producer="producer4" in="00:17:00.924" out="00:17:05.542">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:47.474"/>
+		<entry producer="producer4" in="00:17:53.030" out="00:18:27.333">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:18.428"/>
+		<entry producer="producer4" in="00:19:45.776" out="00:20:01.250">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:06.760"/>
+		<entry producer="producer4" in="00:20:08.034" out="00:20:15.500">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:23.814"/>
+		<entry producer="producer4" in="00:21:39.354" out="00:21:42.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist13"/>
+	<tractor id="tractor6">
+		<property name="kdenlive:track_name">Chukwu Audio Extracted.wav_video</property>
+		<track producer="playlist12" hide="audio"/>
+		<track producer="playlist13" hide="both"/>
+	</tractor>
+	<playlist id="playlist14">
+		<property name="kdenlive:audio_track">1</property>
+		<blank length="00:00:23.194"/>
+		<entry producer="producer5" in="00:00:23.194" out="00:00:29.874">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:02:24.586"/>
+		<entry producer="producer5" in="00:02:54.462" out="00:04:07.796">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:35.628"/>
+		<entry producer="producer5" in="00:04:43.426" out="00:04:47.502">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:06.206"/>
+		<entry producer="producer5" in="00:04:53.710" out="00:05:30.568">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:33.258"/>
+		<entry producer="producer5" in="00:06:03.828" out="00:06:10.092">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:45.724"/>
+		<entry producer="producer5" in="00:06:55.818" out="00:07:33.654">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:04.126"/>
+		<entry producer="producer5" in="00:07:37.782" out="00:08:15.472">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:01:26.574"/>
+		<entry producer="producer5" in="00:09:42.048" out="00:09:49.818">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:19.072"/>
+		<entry producer="producer5" in="00:10:08.892" out="00:10:18.736">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:04.110"/>
+		<entry producer="producer5" in="00:10:22.848" out="00:10:29.008">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:11.890"/>
+		<entry producer="producer5" in="00:10:40.900" out="00:11:12.090">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:33.394"/>
+		<entry producer="producer5" in="00:11:45.486" out="00:11:46.594">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:25.914"/>
+		<entry producer="producer5" in="00:12:12.510" out="00:12:19.926">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:34.328"/>
+		<entry producer="producer5" in="00:12:54.256" out="00:12:58.342">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:36.240"/>
+		<entry producer="producer5" in="00:13:34.584" out="00:14:08.496">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:02.534"/>
+		<entry producer="producer5" in="00:14:11.032" out="00:14:15.800">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:14.334"/>
+		<entry producer="producer5" in="00:14:30.136" out="00:14:55.314">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:16.534"/>
+		<entry producer="producer5" in="00:15:11.850" out="00:15:15.092">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:01:45.340"/>
+		<entry producer="producer5" in="00:17:00.434" out="00:17:00.920">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:16.718"/>
+		<entry producer="producer5" in="00:17:17.640" out="00:17:34.962">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:52.386"/>
+		<entry producer="producer5" in="00:18:27.350" out="00:18:51.926">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:03.536"/>
+		<entry producer="producer5" in="00:18:55.464" out="00:19:45.772">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:15.502"/>
+		<entry producer="producer5" in="00:20:01.276" out="00:20:08.030">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:44.026"/>
+		<entry producer="producer5" in="00:20:52.058" out="00:20:58.494">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:16.010"/>
+		<entry producer="producer5" in="00:21:14.506" out="00:21:18.094">
+			<property name="kdenlive:id">9</property>
+		</entry>
+		<blank length="00:00:21.066"/>
+		<entry producer="producer5" in="00:21:39.162" out="00:21:39.350">
+			<property name="kdenlive:id">9</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist15"/>
+	<tractor id="tractor7">
+		<property name="kdenlive:track_name">Crystal Audio Extracted.wav</property>
+		<track producer="playlist14" hide="video"/>
+		<track producer="playlist15" hide="both"/>
+		<property name="kdenlive:audio_track">1</property>
+	</tractor>
+	<playlist id="playlist16">
+		<blank length="00:00:23.194"/>
+		<entry producer="producer4" in="00:00:23.194" out="00:00:29.875">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:02:24.586"/>
+		<entry producer="producer4" in="00:02:54.462" out="00:04:07.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:35.628"/>
+		<entry producer="producer4" in="00:04:43.426" out="00:04:47.500">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:06.206"/>
+		<entry producer="producer4" in="00:04:53.710" out="00:05:30.542">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:33.258"/>
+		<entry producer="producer4" in="00:06:03.828" out="00:06:10.083">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:45.724"/>
+		<entry producer="producer4" in="00:06:55.818" out="00:07:33.625">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:04.126"/>
+		<entry producer="producer4" in="00:07:37.782" out="00:08:15.458">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:26.574"/>
+		<entry producer="producer4" in="00:09:42.048" out="00:09:49.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:19.072"/>
+		<entry producer="producer4" in="00:10:08.892" out="00:10:18.708">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:04.110"/>
+		<entry producer="producer4" in="00:10:22.848" out="00:10:29.000">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:11.890"/>
+		<entry producer="producer4" in="00:10:40.900" out="00:11:12.083">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:33.394"/>
+		<entry producer="producer4" in="00:11:45.486" out="00:11:46.583">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:25.914"/>
+		<entry producer="producer4" in="00:12:12.510" out="00:12:19.917">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:34.328"/>
+		<entry producer="producer4" in="00:12:54.256" out="00:12:58.333">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:36.240"/>
+		<entry producer="producer4" in="00:13:34.584" out="00:14:08.458">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:02.534"/>
+		<entry producer="producer4" in="00:14:11.032" out="00:14:15.792">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:14.334"/>
+		<entry producer="producer4" in="00:14:30.136" out="00:14:55.292">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:16.534"/>
+		<entry producer="producer4" in="00:15:11.850" out="00:15:15.083">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:01:45.340"/>
+		<entry producer="producer4" in="00:17:00.434" out="00:17:00.917">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:16.718"/>
+		<entry producer="producer4" in="00:17:17.640" out="00:17:34.958">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:52.386"/>
+		<entry producer="producer4" in="00:18:27.350" out="00:18:51.917">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:03.536"/>
+		<entry producer="producer4" in="00:18:55.464" out="00:19:45.750">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:15.502"/>
+		<entry producer="producer4" in="00:20:01.276" out="00:20:08.000">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:44.026"/>
+		<entry producer="producer4" in="00:20:52.058" out="00:20:58.458">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:16.010"/>
+		<entry producer="producer4" in="00:21:14.506" out="00:21:18.083">
+			<property name="kdenlive:id">8</property>
+		</entry>
+		<blank length="00:00:21.066"/>
+		<entry producer="producer4" in="00:21:39.162" out="00:21:39.333">
+			<property name="kdenlive:id">8</property>
+		</entry>
+	</playlist>
+	<playlist id="playlist17"/>
+	<tractor id="tractor8">
+		<property name="kdenlive:track_name">Crystal Audio Extracted.wav_video</property>
+		<track producer="playlist16" hide="audio"/>
+		<track producer="playlist17" hide="both"/>
+	</tractor>
+	<tractor global_feed="1">
+		<track producer="black_track"/>
+		<track producer="tractor0"/>
+		<track producer="tractor1"/>
+		<track producer="tractor2"/>
+		<track producer="tractor3"/>
+		<track producer="tractor4"/>
+		<track producer="tractor5"/>
+		<track producer="tractor6"/>
+		<track producer="tractor7"/>
+		<track producer="tractor8"/>
+	</tractor>
+</mlt>
