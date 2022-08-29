@@ -1,0 +1,3 @@
+AUDIO_VIDEO_TUPLE_LIST=[("E4 Scott.mp3", 1),("E4 - Christine.mp3", 1), ("E4 - Crystal.mp3",2),("E4 - Chukwu.mp3",2)]
+VIDEO_FILEPATH_LIST= ["E4-M.mp4","E4-Left.mp4","E4-R.mp4"]
+
